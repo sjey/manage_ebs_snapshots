@@ -6,7 +6,7 @@ This scirpt deletes snapshots that are older than the given days.
 
 Usage:
 ------------------
-del_snaps.py <no of days> <volume id>
+del_snaps.py \<no of days\> \<volume id\>
 
 Eg:
 del_snaps.py 30 vol-xxxxxxxxx
