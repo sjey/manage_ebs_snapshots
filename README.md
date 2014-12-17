@@ -9,7 +9,7 @@ Usage:
 del_snaps.py <no of days> <volume id>
 
 Eg:
-#del_snaps.py 30 vol-xxxxxxxxx
+del_snaps.py 30 vol-xxxxxxxxx
 
 The above command will delete snapshots that are older than 30 days for vol-xxxxxxxxx
 
