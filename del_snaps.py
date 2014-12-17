@@ -24,9 +24,9 @@ for i in vols:
        start_date = datetime.datetime.today() + datetime.timedelta(-days)
        dt = datetime.datetime.strftime(start_date, '%Y-%m-%dT%H:%M:%S.%fZ')
        if snp_date < start_date :
-		print ('{0} greater than 30 days old - {1}. Deleting them').format(snap, snp_date)
+		print ('{0} greater than {2} days old - {1}. Deleting them').format(snap, snp_date, days)
 		snap.delete()
 	     
        else :
-		print ("{0} less than 30 days old {1}. So ignoring the snap").format(snap, snp_date)
+		print ("{0} less than {2} days old {1}. So ignoring the snap").format(snap, snp_date, days)
 		continue
