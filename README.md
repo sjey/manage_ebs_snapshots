@@ -6,10 +6,10 @@ This scirpt deletes snapshots that are older than the given days.
 
 Usage:
 ------------------
-del_snaps.py \<no of days\> \<volume id\>
+del_snaps.py -c delete or create -d \<no of days\>  -v \<volume id\>
 
-Eg:
-del_snaps.py 20 vol-xxxxxxxxx
+Eg to delete snapshot:
+del_snaps.py -c delete -d 20 -v vol-xxxxxxxxx
 
 The above command will delete snapshots that are older than 20 days for vol-xxxxxxxxx
 
